@@ -92,7 +92,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/calcButton"
                 android:layout_weight="1"
-                android:onClick="calcPythagoras (MainActivity)" />
+                android:onClick="calcPythagoras" />
         </LinearLayout>
 
         <LinearLayout
@@ -130,7 +130,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/showAbout"
                 android:layout_weight="1"
-                android:onClick="showAbout (MainActivity)" />
+                android:onClick="showAbout" />
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>

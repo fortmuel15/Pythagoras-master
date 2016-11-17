@@ -27,7 +27,6 @@
             android:textAlignment="center" />
 
         <TextView
-            android:text="This Pythagoras-Calculator was made by Vanessa Fortmüller."
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/copyRight"

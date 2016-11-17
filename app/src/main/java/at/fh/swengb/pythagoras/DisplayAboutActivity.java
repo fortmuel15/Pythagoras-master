@@ -17,12 +17,10 @@ public class DisplayAboutActivity extends AppCompatActivity {
         setContentView(R.layout.activity_display_about);
 
         Intent intent = getIntent();
-
         String message = intent.getStringExtra("resultOfCalc");
-        TextView textView = (TextView) findViewById(R.id.resultNumber
-        );
+        TextView textView = (TextView) findViewById(R.id.copyRight);
 
-        textView.setText(message);
+        textView.setText("This App was created by Vanessa Fortmueller, IMA :-)");
 
     }
 }
